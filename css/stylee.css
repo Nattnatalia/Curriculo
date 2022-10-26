@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    background-image: url(../img/Background.png);
+    font-family: 'Raleway', sans-serif;
+}
+.cabeçalho{
+    background-image: url(../img/background\ header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.cabeçalho ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 25px;
+    width: 140px;
+    right: 10px;
+    margin-top: 60px;
+    text-align:center;
+    background-color:#E57EFF;
+    list-style: none;
+}
+
+.cabeçalho li{
+    padding-top: 2px;
+    padding-right: 45px;
+    text-align:center;
+    transition: color .3s linear;
+    
+}
+
+.cabeçalho a{
+    text-decoration: none;
+    color: aliceblue
+}
+
+.cabeçalho a:hover{
+    color:#EFBD68;
+}
+.sobre{
+    background-image: url(../img/bcabout.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+   
+}
+.sobre h1{
+    width: 180px;
+    right: 100px;
+    background-color:#E57EFF;
+    color:aliceblue;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+   
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(.76,-0.2,.66,1.33);
+    
+}
+.sobre h1:hover{
+    width: 500px;
+    color:rgb(83, 75, 68);
+}
+    
+.sobre p{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: 40%;
+    color: rgb(83, 75, 68);
+    letter-spacing: 1,5;
+    
+
+}
+.formação{
+    background-image: url(../img/bcformaçao.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    backface-visibility: hidden;
+   
+    margin-top: 0px;
+}
+.formação h1{
+    width: 200px;
+    right: 100px;
+    background-color:#E57EFF;
+    color:aliceblue;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0px;
+   
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(.76,-0.2,.66,1.33);
+    
+}
+.formação h1:hover{
+    width: 500px;
+    color:rgb(83, 75, 68);
+}
+.formação h2, p{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(83, 75, 68);
+    margin-left: 50px;
+
+}
+.formação p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.contatos{
+    text-align: center;
+    padding-top: 0px;
+    background-color: #EFBD68;
+    padding-bottom: 50px;
+    
+}
+.contatos h1{
+    background-color: #e57effa0;
+    background-size: 30px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    color:aliceblue;
+}
+.contatos a{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.contatos i{
+    color:rgb(83, 75, 68);
+    text-decoration: none;
+    padding-top: 10px
+}
