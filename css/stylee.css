@@ -34,7 +34,7 @@ body{
 
 .cabeçalho a{
     text-decoration: none;
-    color: aliceblue
+    color: aliceblue;
 }
 
 .cabeçalho a:hover{
@@ -139,7 +139,7 @@ body{
     font-size: 30px;
 }
 .contatos i{
-    color:rgb(83, 75, 68);
+    color:red;
     text-decoration: none;
     padding-top: 10px
 }
