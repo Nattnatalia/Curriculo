@@ -34,7 +34,7 @@ body{
 
 .cabeçalho a{
     text-decoration: none;
-    color: aliceblue;
+    color: aliceblue
 }
 
 .cabeçalho a:hover{
@@ -63,10 +63,7 @@ body{
     transition-timing-function:cubic-bezier(.76,-0.2,.66,1.33);
     
 }
-.sobre h1:hover{
-    width: 500px;
-    color:rgb(83, 75, 68);
-}
+
     
 .sobre p{
     font-size: 25px;
@@ -79,7 +76,7 @@ body{
 
 }
 .formação{
-    background-image: url(../img/bcformaçao.png);
+    background-image: url(/Curriculo/img/bcformaçao.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 100%;
@@ -96,15 +93,9 @@ body{
     text-align: center;
     margin-left: 0px;
    
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function:cubic-bezier(.76,-0.2,.66,1.33);
     
 }
-.formação h1:hover{
-    width: 500px;
-    color:rgb(83, 75, 68);
-}
+
 .formação h2, p{
     text-align: left;
     font-size: 20px;
@@ -139,7 +130,7 @@ body{
     font-size: 30px;
 }
 .contatos i{
-    color:red;
+    color:rgb(83, 75, 68);
     text-decoration: none;
     padding-top: 10px
 }
